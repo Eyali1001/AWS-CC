@@ -1,12 +1,12 @@
 # AWS-CC
 credit card storage server running on an ec2 machine. written with node.js and implementing redis. basic auth is done with nginx.
 
-libraries I use for node js (simple installation with npm):
-express //elegant and simple web framework
-body-parser //parse the body oof POST requests easily
-uuid/v4 //generate tokens 
-luhn //validate cc format
-redis //in memory db of credit cards
+1. libraries I use for node js (simple installation with npm):
+2. express //elegant and simple web framework
+3. body-parser //parse the body oof POST requests easily
+4. uuid/v4 //generate tokens 
+5. luhn //validate cc format
+6. redis //in memory db of credit cards
 
 The main difficulty was to install everything on the ec2 machine after writing it on my
 windows computer, but because of the large scale use of ec2 machines I was able to find
