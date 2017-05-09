@@ -1,0 +1,36 @@
+2017/05/08 13:53:38 [emerg] 9120#11616: unexpected end of file, expecting "}" in C:\nginx-1.12.0/conf/nginx.conf:27
+2017/05/08 13:56:36 [emerg] 11800#6456: unexpected end of file, expecting "}" in C:\nginx-1.12.0/conf/nginx.conf:27
+2017/05/08 13:56:51 [notice] 1516#1064: signal process started
+2017/05/08 13:56:51 [error] 1516#1064: CreateFile() "C:\nginx-1.12.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2017/05/08 13:57:13 [notice] 3636#11652: signal process started
+2017/05/08 13:57:13 [error] 3636#11652: CreateFile() "C:\nginx-1.12.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2017/05/08 14:00:30 [notice] 1064#1516: signal process started
+2017/05/08 14:00:35 [crit] 12004#11436: *7 CreateFile() "C:
+ginx-1.12.0\conf\pass" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/05/08 14:00:44 [notice] 5816#8096: signal process started
+2017/05/08 14:03:28 [notice] 9104#1204: signal process started
+2017/05/08 14:03:33 [crit] 10464#9724: *1 CreateFile() "C:
+ginx-1.12.0\conf\.pass" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/05/08 14:05:11 [notice] 13032#1120: signal process started
+2017/05/08 14:05:17 [crit] 2584#12476: *4 CreateFile() "C:
+ginx-1.12.0\conf\.pass.txt" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/05/08 14:07:32 [notice] 11820#14168: signal process started
+2017/05/08 14:07:39 [error] 13748#2912: *1 CreateFile() "C:/nginx-1.12.0/conf/.pass.txt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/05/08 14:08:28 [notice] 11076#1552: signal process started
+2017/05/08 14:12:08 [notice] 11752#8484: signal process started
+2017/05/08 14:12:14 [error] 1748#11500: *15 user "admin" was not found in "C:/nginx-1.12.0/conf/pass.txt", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/05/08 14:12:18 [error] 1748#11500: *15 user "admin" was not found in "C:/nginx-1.12.0/conf/pass.txt", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/05/08 14:12:22 [error] 1748#11500: *15 user "admin" was not found in "C:/nginx-1.12.0/conf/pass.txt", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/05/08 14:12:28 [error] 1748#11500: *15 user "admin" was not found in "C:/nginx-1.12.0/conf/pass.txt", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/05/08 14:12:30 [error] 1748#11500: *15 user "admin" was not found in "C:/nginx-1.12.0/conf/pass.txt", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/05/08 14:12:33 [error] 1748#11500: *15 user "admin" was not found in "C:/nginx-1.12.0/conf/pass.txt", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/05/08 14:17:23 [error] 1748#11500: *29 user "admin" was not found in "C:/nginx-1.12.0/conf/pass.txt", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/05/08 14:19:43 [notice] 12756#11380: signal process started
+2017/05/08 14:19:45 [error] 10828#13816: *31 user ""admin"" was not found in "C:/nginx-1.12.0/conf/pass.txt", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/05/08 14:21:05 [notice] 10632#12192: signal process started
+2017/05/08 14:25:32 [notice] 12680#11900: signal process started
+2017/05/08 15:48:52 [error] 3012#12436: *53 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /creditcard/e5f0ddd5-2208-4820-801d-c5c8ee7f6dec HTTP/1.1", upstream: "http://[::1]:8081/creditcard/e5f0ddd5-2208-4820-801d-c5c8ee7f6dec", host: "localhost"
+2017/05/08 15:49:52 [error] 3012#12436: *53 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /creditcard/e5f0ddd5-2208-4820-801d-c5c8ee7f6dec HTTP/1.1", upstream: "http://127.0.0.1:8081/creditcard/e5f0ddd5-2208-4820-801d-c5c8ee7f6dec", host: "localhost"
+2017/05/08 15:53:06 [error] 3012#12436: *57 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /creditcard/e5f0ddd5-2208-4820-801d-c5c8ee7f6dec HTTP/1.1", upstream: "http://127.0.0.1:8081/creditcard/e5f0ddd5-2208-4820-801d-c5c8ee7f6dec", host: "localhost"
+2017/05/08 15:54:49 [error] 3012#12436: *61 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /creditcard/ HTTP/1.1", upstream: "http://[::1]:8081/creditcard/", host: "127.0.0.1"
+2017/05/08 16:04:46 [error] 3012#12436: *82 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /creditcard/cad0c657-18e2-44eb-8062-91ec2957a018 HTTP/1.1", upstream: "http://127.0.0.1:8081/creditcard/cad0c657-18e2-44eb-8062-91ec2957a018", host: "localhost"
